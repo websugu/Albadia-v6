@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(241, 242, 244);
+    color: rgb(7, 7, 7);
+}
+
+@media screen and (max-width: 431px) {
+    .call{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+    }
+    .call_header{
+        display: flex;
+       align-items: center;
+       gap: 20px;
+    }
+    .call-name{
+        line-height: 7px;
+    }
+    .call-time a{
+        font-size: 20px;
+        color:  rgb(38, 109, 203);
+        text-decoration: none;
+
+    }
+    .call-time{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    
+}
